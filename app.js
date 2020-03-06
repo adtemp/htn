@@ -11,10 +11,10 @@ let adg = () => {
 adg();
 
 let sb = document.getElementById("side-bar-button");
+let sm = document.getElementById("site-mask");
 sb.onclick = sm.onclick = () => {
     let a = "aria-expanded";
     let bd = document.querySelector("body");
-    let sm = document.getElementById("site-mask");
     let b2 = document.getElementById("box2");
     if(sb.getAttribute(a) === "true") {
         bd.style.overflow = "auto";
