@@ -1,4 +1,3 @@
-let b = document.getElementById("aria-expanded");
-b.onclick = () => {
-    b.setAttribute("aria-expanded", b.getAttribute("aria-expanded") === "true" ? "false" : "true");
-};
+let a = "aria-expanded";
+let b = document.getElementById("side-bar-button");
+b.onclick = () => {b.setAttribute(a, b.getAttribute(a) === "true" ? "false" : "true")};
