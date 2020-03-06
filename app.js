@@ -1,4 +1,4 @@
-document.getElementById("side-bar-button").onclick = () => {
-    let bn = document.getElementById("side-bar-button");
-    bn.setAttribute("aria-expanded", bn.getAttribute("aria-expanded" === "true" ? "false" : "true"));
-}
+let b = document.getElementById("aria-expanded");
+b.onclick = function() {
+    this.setAttribute("aria-expanded", this.getAttribute("aria-expanded") === "true" ? "false" : "true");
+};
