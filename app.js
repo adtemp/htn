@@ -13,4 +13,4 @@ function a() {
         sm.style.zIndex = "1";
         b2.style.right = "0";
     }
-};
+}
