@@ -2,8 +2,7 @@ let a = "aria-expanded";
 let sb = document.getElementById("side-bar-button");
 let sm = document.getElementById("site-mask");
 let b2 = document.getElementById("box2");
-sb.onclick = sm.onclick = s;
-function s() {
+sb.onclick = sm.onclick = () => {
     if(sb.getAttribute(a) === "true") {
         sb.setAttribute(a, "false");
         sm.style.zIndex = "-1";
@@ -13,4 +12,4 @@ function s() {
         sm.style.zIndex = "1";
         b2.style.right = "0";
     }
-}
+};
