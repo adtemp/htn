@@ -44,6 +44,7 @@ a:hover {
 .entry,
 .leave-comment-title,
 .pager a,
+#footer,
 .urllist-item:hover,
 #side-bar-button:hover {
   background-color: #2e2e2e !important;
