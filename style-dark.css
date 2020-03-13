@@ -53,6 +53,7 @@ a:hover {
   border: none;
 }
 .page-index article.entry:hover,
+.page-index .entry-inner:hover
 .leave-comment-title:hover {
   background-color: #43526d !important;
 }
