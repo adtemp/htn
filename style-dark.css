@@ -52,7 +52,7 @@ a:hover {
 .page-archive .archive-entry {
   border: none;
 }
-.page-index .entry-inner:hover,
+.page-index article.entry:hover,
 .leave-comment-title:hover {
   background-color: #43526d !important;
 }
