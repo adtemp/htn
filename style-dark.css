@@ -28,6 +28,9 @@ textarea {
   color: #e3e3e3;
   background-color: #2e2e2e;
 }
+.categories a {
+  background-color: #3e3e3e;
+}
 .entry {
   border-color: #171717;
 }
